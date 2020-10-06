@@ -1,0 +1,39 @@
+Contributions:
+
+James Charrington - k1625607 - 50%
+Spiro Spyropoulos - k1715939 - 50%
+
+
+Help (commands list):
+
+list task
+list subtask [task]
+add task
+add subtask
+remove task [optional]
+remove subtask [task number] [subtask number]
+mark [task]
+unmark [task]
+edit task [task] description [field]
+edit task [task] user name [field]
+edit task [task] user password [field]
+edit task [task] user level [field]
+edit subtask [subtask number] [task number] description [field]
+edit subtask [subtask number] [task number] date [field]
+edit subtask [subtask number] [task number] priority [field]
+search
+sort
+help
+
+
+Creativity:
+We incorporated the Dropbox API along side the usage of threads, which implements runnable, to download and upload directly to the cloud. In addition, we made our own chat concole chat processor to handle the format and multi step process of some commands.  
+
+
+
+Examples (key):
+
+[task] and [subtask] is the number seen within the list function
+such as: list subtask 1 would result in all the subtask of task 1.
+
+[field] is the search query or entry for data to be manipulated
